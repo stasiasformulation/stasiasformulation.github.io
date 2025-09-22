@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        #product-modal {
+            transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-50" style="background-color: #f72d55;">
+
+<header class="shadow-sm" style="background-color: #FF69B4;">
+    <div class="container mx-auto px-6 py-4">
+        <h1 class="text-3xl font-bold text-white">Stasia's Formulation Skincare</h1>
+        <p class="text-gray-100 mt-1">Discover our ingredients in our products.</p>
+    </div>
+</header>
+
+    <main class="container mx-auto px-6 py-12">
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            </div>
+    </main>
+
+    <div id="product-modal" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 invisible opacity-0">
+        <div id="modal-content" class="bg-white rounded-lg shadow-2xl w-full max-w-4xl h-[90vh] flex flex-col transform transition-transform duration-300 scale-95">
+            <div class="flex justify-between items-center p-5 border-b border-gray-200 flex-shrink-0">
+                <h2 id="modal-title" class="text-2xl font-semibold">Product Title</h2>
+                <button id="close-modal-btn" class="text-gray-500 hover:text-gray-800 text-3xl">&times;</button>
+            </div>
+            
+            <div class="p-6 md:p-8 flex-grow overflow-y-auto">
+                <div id="ingredients-view">
+                    <h3 class="text-xl font-semibold mb-6 text-gray-700">Key Ingredients</h3>
+                    <div id="ingredients-grid" class="space-y-6">
+                        </div>
+                </div>
+
+                <div id="ingredient-detail-view" style="display: none;">
+                    <button id="back-to-ingredients-btn">&larr; Back</button>
+                    <img id="ingredient-detail-image" src="" alt="">
+                    <p id="ingredient-detail-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- DATA (Formatted as strict JSON for compatibility) ---
+            const products = [
+                {
+                    id: 1,
+                    name: "Stasia\'s Healing Lip Serum",
+                    imageUrl: "https://github.com/DanielPiliutsin/danielpiliutsin.github.io/blob/main/Assets/lipOil.jpeg?raw=true",
+                    ingredients: [
+                    { id: "i1", name: "Squalane", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Squalane.png?raw=true", description: "Squalane is an emollient in the formulation meaning it makes your skin soft, smooth, and lovely. Lip Benefits: Helps prevent dryness and chapping by locking in moisture. Makes lips feel softer and appear plumper by smoothing out fine lines. Absorbs quickly without leaving a heavy or sticky residue. Ideal for sensitive or chapped lips, reducing flakiness and discomfort." },
+                    { id: "i2", name: "Vitis Vinifera (Grape) Seed Oil", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Grapeseed%20Oil.png?raw=true", description: "Grapeseed Oil is an emollient and antioxidant meaning it helps your skin to combat collagen-damaging free radicals. Lip Benefits: Rich in fatty acids, it helps lock in moisture and prevent dryness. Contains vitamin e and polyphenols that protect lips from free radical damage and environmental stressors. Helps repair chapped or cracked lips by promoting skin regeneration." },
+                    { id: "i3", name: "Argania Spinosa Kernal Oil", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Argan%20oil.png?raw=true", description: "Argan Oil is an antioxidant and emollient. Lip Benefits: Rich in fatty acids and vitamin e, it deeply hydrates dry, chapped lips. Helps soothe cracked lips and promotes faster healing. Improves lip texture, making them feel softer and more supple." },
+                    { id: "i7", name: "Hippophae Rhamnoides (Sea Buckthorn) Oil", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Sea%20buckthonr%20Oil.png?raw=true", description: "Sea Buckthorn Oil is an antioxidant and an emollient. Lip Benefits: Packed with omega fatty acids (3, 6, 7, and 9) that nourish and lock in moisture. Rich in vitamins A, C, and E, it promotes skin repair and soothes irritation. The high vitamin C content helps improve lip elasticity and plumpness. Reduces redness, irritation, and sensitivity, making it great for dry or sensitive lips." },
+                    { id: "i8", name: "Brassica Napus Seed Oil", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Rapeseed%20oil.png?raw=true", description: "Rapeseed Oil is an emollient. We wanted to incorperate an emollient into our lip serum that is super sensitive but also helps lock in moisture. Lip Benefits: It\'s high in essential fatty acids (Like omega-3 and omega-6), which help lock in moisture and prevent dryness and chapping. It gives lips a natural, healthy sheen without needing synthetic glosses." },
+                    { id: "i9", name: "Cera alba", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Beeswax.png?raw=true", description: "Beeswax *ethically sourced* is an emollient and thickening agent helping the formulation appear thicker. Lip Benefits: Beeswaxs helps lock in moisture, keeping lips hydrated and preventing dryness or chapping. Rich in vitamin A, it supports skin cell regeneration, which can help maintain soft and healthy lips. Beeswax contains anti-inflammatory, antibacterial, and antiviral properties that can help heal cracked or irritated lips." },
+                    { id: "i10", name: "Wildflower Honey", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Wildflower%20honey.png?raw=true", description: "Wildflower honey is a soothing and moisturizing agent as well as an amazing humectant. Lip Benefits: Wildflower honey can accelerate the skin\'s healing process, making it great for restoring lip health. It contains natural enzymes that can help slough off dead skin, leaving lips smooth and soft. Honey is a natural humectant, meaning it draws moisture from the air into the skin. Great for keeping lips hydrated." },
+                    { id: "i11", name: "Tocopherol", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Vitamin%20E.png?raw=true", description: "Vitamin E is an antioxidant. We wanted to add a super antioxidant to our formula to prevent our oil based lip serum from going rancid. Lip Benefits: Helps restore and lock in hydration, preventing dryness and flakiness. Reduces irritation and inflammation, bringing refief to sore or sensitive lips." },
+                    { id: "i12", name: "Rosmarinus Officinalis (Rosemary) Extract", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/rosemary.png?raw=true", description: "Rosemary extract is an antioxidant and is used in this formulation as an extra preservative to help the lip serum from going rancid. Rosemary can stimulate blood flow, which might promote plumper-looking, healthier lips. Rosemary extract is rich in antioxidants (like carnosic acid and rosmarinic acid), which help protect lips from environmental damage and premature aging." },
+                    { id: "i13", name: "Dimethicone", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Dimethicone.png?raw=true", description: "Dimethicone is an emollient. Lip Benefits: Forms a lightweight protective barrier on the lips to lock in hydration. Leaves lips feeling soft and supple without being greasy. Protects cracked or chapped lips from further irritation while they heal. Reduces transepidermal water loss, helping lips stay moisturized for longer." },
+                    { id: "i14", name: "Centella Asiatica", imageUrl: "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/cica.png?raw=true", description: "Centella Asiatica is an antioxidant and is known as a soothing ingredient meaning it is helpful in general to slow the aging process of the skin. Lip Benefits: Rich in madecassoside, it helps repair cracked or chapped lips by promoting skin regeneration. Boosts collagen production and imrpoves lip elasticity and firmness, keeping them soft and plump." }
+                    ]
+                },
+                {
+                    id: 2,
+                    name: "Stasia\'s Glowing Cuticle Oil",
+                    imageUrl: "https://github.com/DanielPiliutsin/danielpiliutsin.github.io/blob/main/Assets/cutOil.jpeg?raw=true",
+                    ingredients: [
+                    { id: "i15", name: "Ingredients Coming Soon!", imageUrl: "https://placehold.co/200x200/e2e8f0/333?text=Coming%20Soon", description: "" }
+                    ]
+                }
+            ];
+
+            // --- DOM ELEMENTS (IDs remain unchanged) ---
+            const productGrid = document.getElementById('product-grid');
+            const modal = document.getElementById('product-modal');
+            const modalContent = document.getElementById('modal-content');
+            const closeModalBtn = document.getElementById('close-modal-btn');
+            const modalTitle = document.getElementById('modal-title');
+            const ingredientsGrid = document.getElementById('ingredients-grid');
+
+            /** Renders the products into the main grid. */
+            function displayProducts() {
+                productGrid.innerHTML = products.map(product => `
+                    <div class="product-card bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transform hover:scale-105 transition-transform duration-300" data-id="${product.id}">
+                        <img src="${product.imageUrl}" alt="${product.name}" class="w-full aspect-square object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">${product.name}</h3>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            /** Shows the combined ingredient list with descriptions for a given product. */
+            function showIngredients(productId) {
+                const product = products.find(p => p.id === productId);
+                if (!product) return;
+
+                modalTitle.textContent = product.name;
+                
+                ingredientsGrid.innerHTML = product.ingredients.map(ing => `
+                    <div class="ingredient-item flex flex-col sm:flex-row items-start gap-4 p-4 border rounded-lg bg-gray-50">
+                        <img src="${ing.imageUrl}" alt="${ing.name}" class="w-full sm:w-24 h-auto sm:h-24 object-cover rounded-md flex-shrink-0">
+                        <div class="flex-grow">
+                            <h4 class="text-lg font-semibold text-gray-800">${ing.name}</h4>
+                            <p class="text-gray-600 mt-1">${ing.description}</p>
+                        </div>
+                    </div>
+                `).join('');
+                
+                // Show the modal
+                modal.classList.remove('invisible', 'opacity-0');
+                modalContent.classList.remove('scale-95');
+                modalContent.classList.add('scale-100');
+            }
+
+            /** Closes the modal. */
+            function closeModal() {
+                modal.classList.add('opacity-0');
+                modalContent.classList.add('scale-95');
+                modalContent.classList.remove('scale-100');
+                setTimeout(() => {
+                    modal.classList.add('invisible');
+                }, 300);
+            }
+
+            // --- EVENT LISTENERS ---
+            productGrid.addEventListener('click', (e) => {
+                const card = e.target.closest('.product-card');
+                if (card) {
+                    showIngredients(parseInt(card.dataset.id, 10));
+                }
+            });
+
+            closeModalBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+            // --- INITIALIZATION ---
+            displayProducts();
+        });
+    </script>
+
+</body>
+</html>
