@@ -1,0 +1,12 @@
+{
+  "pages": [
+    {
+      "id": "page_ingredients_1",
+      "name": "Ingredients",
+      "slug": "ingredients",
+      "template": "lists",
+      "dataPath": "ingredients/products.json"
+    }
+  ],
+  "siteName": "Stasia's Formulation"
+}
