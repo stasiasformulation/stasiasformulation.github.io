@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Stasia's Healing Lip Serum",
+    "imageUrl": "https://github.com/DanielPiliutsin/danielpiliutsin.github.io/blob/main/Assets/lipOil.jpeg?raw=true",
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Squalane",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Squalane.png?raw=true",
+        "description": "Squalane is an emollient in the formulation meaning it makes your skin soft, smooth, and lovely. Lip Benefits: Helps prevent dryness and chapping by locking in moisture."
+      },
+      {
+        "id": "i2",
+        "name": "Vitis Vinifera (Grape) Seed Oil",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Grapeseed%20Oil.png?raw=true",
+        "description": "Grapeseed Oil is an emollient and antioxidant meaning it helps your skin to combat collagen-damaging free radicals."
+      },
+      {
+        "id": "i3",
+        "name": "Argania Spinosa Kernal Oil",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Argan%20oil.png?raw=true",
+        "description": "Argan Oil is an antioxidant and emollient. Lip Benefits: Rich in fatty acids and vitamin e, it deeply hydrates dry, chapped lips."
+      },
+      {
+        "id": "i7",
+        "name": "Hippophae Rhamnoides (Sea Buckthorn) Oil",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Sea%20buckthonr%20Oil.png?raw=true",
+        "description": "Sea Buckthorn Oil is an antioxidant and an emollient. Lip Benefits: Packed with omega fatty acids."
+      },
+      {
+        "id": "i8",
+        "name": "Brassica Napus Seed Oil",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Rapeseed%20oil.png?raw=true",
+        "description": "Rapeseed Oil is an emollient. We wanted to incorperate an emollient into our lip serum that is super sensitive."
+      },
+      {
+        "id": "i9",
+        "name": "Cera alba",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Beeswax.png?raw=true",
+        "description": "Beeswax *ethically sourced* is an emollient and thickening agent helping the formulation appear thicker."
+      },
+      {
+        "id": "i10",
+        "name": "Wildflower Honey",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Wildflower%20honey.png?raw=true",
+        "description": "Wildflower honey is a soothing and moisturizing agent as well as an amazing humectant."
+      },
+      {
+        "id": "i11",
+        "name": "Tocopherol",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/Vitamin%20E.png?raw=true",
+        "description": "Vitamin E is an antioxidant. We wanted to add a super antioxidant to our formula."
+      },
+      {
+        "id": "i12",
+        "name": "Rosmarinus Officinalis (Rosemary) Extract",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/rosemary.png?raw=true",
+        "description": "Rosemary extract is an antioxidant and is used in this formulation as an extra preservative."
+      },
+      {
+        "id": "i13",
+        "name": "Dimethicone",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Dimethicone.png?raw=true",
+        "description": "Dimethicone is an emollient. Lip Benefits: Forms a lightweight protective barrier on the lips."
+      },
+      {
+        "id": "i14",
+        "name": "Centella Asiatica",
+        "imageUrl": "https://github.com/stasiasformulation/stasiasformulation.github.io/blob/main/Assets/cica.png?raw=true",
+        "description": "Centella Asiatica is an antioxidant and is known as a soothing ingredient."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Stasia's Glowing Cuticle Oil",
+    "imageUrl": "https://github.com/DanielPiliutsin/danielpiliutsin.github.io/blob/main/Assets/cutOil.jpeg?raw=true",
+    "ingredients": [
+      {
+        "id": "i15",
+        "name": "Ingredients Coming Soon!",
+        "imageUrl": "https://placehold.co/200x200/e2e8f0/333?text=Coming%20Soon",
+        "description": ""
+      }
+    ]
+  }
+]
