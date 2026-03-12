@@ -13,6 +13,13 @@
       "name": "Ingredients",
       "slug": "ingredients",
       "template": "lists"
+    },
+    {
+      "id": "page_1773292286139",
+      "name": "Test",
+      "slug": "test",
+      "template": "modular",
+      "dataPath": "test/data.json"
     }
   ],
   "siteName": "Stasia's Formulation"
