@@ -1,9 +1,9 @@
 {
   "settings": {
-    "title": "Stasia's Formulation Skincare",
-    "subtitle": "Discover our ingredients in our products.",
     "color1": "#FF69B4",
-    "color2": "#f72d55"
+    "color2": "#f72d55",
+    "subtitle": "Discover our ingredients in our products.",
+    "title": "Stasia's Formulation Skincare"
   },
   "items": [
     {
@@ -27,6 +27,24 @@
           "id": "sub_1773277896112",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan_oil_1773277924.jpg",
           "name": "Argania Spinosa Kernal Oil"
+        },
+        {
+          "id": "sub_1773278586150",
+          "name": "Hippophae Rhamnoides (Sea Buckthorn) Oil",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Sea%20buckthonr%20Oil.png",
+          "description": "Sea Buckthorn Oil is an antioxidant and an emollient. Lip Benefits: Packed with omega fatty acids (3, 6, 7, and 9) that nourish and lock in moisture. Rich in vitamins A, C, and E, it promotes skin repair and soothes irritation. The high vitamin C content helps improve lip elasticity and plumpness. Reduces redness, irritation, and sensitivity, making it great for dry or sensitive lips."
+        },
+        {
+          "id": "sub_1773278627504",
+          "name": "Brassica Napus Seed Oil",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Rapeseed%20oil.png",
+          "description": "Rapeseed Oil is an emollient. We wanted to incorperate an emollient into our lip serum that is super sensitive but also helps lock in moisture. Lip Benefits: It's high in essential fatty acids (Like omega-3 and omega-6), which help lock in moisture and prevent dryness and chapping. It gives lips a natural, healthy sheen without needing synthetic glosses."
+        },
+        {
+          "id": "sub_1773278654128",
+          "name": "Cera alba",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Beeswax.png",
+          "description": "Beeswax *ethically sourced* is an emollient and thickening agent helping the formulation appear thicker. Lip Benefits: Beeswaxs helps lock in moisture, keeping lips hydrated and preventing dryness or chapping. Rich in vitamin A, it supports skin cell regeneration, which can help maintain soft and healthy lips. Beeswax contains anti-inflammatory, antibacterial, and antiviral properties that can help heal cracked or irritated lips."
         }
       ],
       "name": "Stasia's Healing Lip Serum"
