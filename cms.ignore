@@ -15,11 +15,11 @@
       "template": "lists"
     },
     {
+      "dataPath": "test/data.json",
       "id": "page_1773292286139",
       "name": "Test",
       "slug": "test",
-      "template": "modular",
-      "dataPath": "test/data.json"
+      "template": "modular"
     }
   ],
   "siteName": "Stasia's Formulation"
