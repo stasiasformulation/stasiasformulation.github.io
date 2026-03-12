@@ -1,1 +1,1 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><script>fetch('home_data.json').then(r=>r.json()).then(d=>{window.location.href=d.url||'/';}).catch(()=>window.location.href='/');</script></head><body>Redirecting...</body></html>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><script>const getData=()=>window.CMS_PREVIEW_DATA?Promise.resolve(window.CMS_PREVIEW_DATA):fetch('home_data.json').then(r=>r.json());getData().then(d=>{window.location.href=d.url||'/';}).catch(()=>window.location.href='/');</script></head><body>Redirecting...</body></html>
