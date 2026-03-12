@@ -1,21 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Stasia's Healing Lip Serum",
-    "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/lipOil.jpeg",
+    "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/lipOil_1773277869.jpeg",
     "ingredients": [
       {
+        "description": "Squalane is an emollient in the formulation meaning it makes your skin soft, smooth, and lovely.",
         "id": "i1",
-        "name": "Squalane",
         "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
-        "description": "Squalane is an emollient in the formulation meaning it makes your skin soft, smooth, and lovely."
+        "name": "Squalane"
       },
       {
+        "description": "Grapeseed Oil is an emollient and antioxidant.",
         "id": "i2",
-        "name": "Vitis Vinifera (Grape) Seed Oil",
         "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Grapeseed%20Oil.png",
-        "description": "Grapeseed Oil is an emollient and antioxidant."
+        "name": "Vitis Vinifera (Grape) Seed Oil"
+      },
+      {
+        "id": "sub_1773277896112",
+        "name": "Argania Spinosa Kernal Oil",
+        "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan_oil_1773277924.jpg",
+        "description": "Argan Oil is an antioxidant and emollient. Lip Benefits: Rich in fatty acids and vitamin e, it deeply hydrates dry, chapped lips. Helps soothe cracked lips and promotes faster healing. Improves lip texture, making them feel softer and more supple."
       }
-    ]
+    ],
+    "name": "Stasia's Healing Lip Serum"
   }
 ]
