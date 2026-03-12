@@ -1,1 +1,88 @@
-[]
+{
+  "settings": {
+    "tabTitle": "Page",
+    "favicon": ""
+  },
+  "modules": [
+    {
+      "id": "m_1773293894070",
+      "type": "titlebar",
+      "content": "",
+      "url": "",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "test",
+      "subtitle": "",
+      "color": "#FF69B4",
+      "text": "Click Here",
+      "font": "Inter",
+      "textColor": "#1f2937",
+      "textSize": 16,
+      "titleColor": "#1f2937",
+      "titleSize": 30,
+      "subtitleColor": "#1f2937",
+      "subtitleSize": 16,
+      "menu": {
+        "enabled": false,
+        "textColor": "#ffffff",
+        "links": [
+          {
+            "id": "link_hycoc0s4j",
+            "name": "Home Page",
+            "url": "/"
+          },
+          {
+            "id": "link_ss9qeeidf",
+            "name": "Ingredients",
+            "url": "/ingredients/"
+          },
+          {
+            "id": "link_2vjzs37ul",
+            "name": "Test",
+            "url": "/test/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m_1773293899006",
+      "type": "image",
+      "content": "",
+      "url": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Grapeseed%20Oil.png",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "",
+      "subtitle": "",
+      "color": "#f72d55",
+      "text": "Click Here",
+      "font": "Inter",
+      "textColor": "#1f2937",
+      "textSize": 16,
+      "titleColor": "#1f2937",
+      "titleSize": 30,
+      "subtitleColor": "#1f2937",
+      "subtitleSize": 16,
+      "menu": {
+        "enabled": false,
+        "textColor": "#ffffff",
+        "links": [
+          {
+            "id": "link_2ehwysf0v",
+            "name": "Home Page",
+            "url": "/"
+          },
+          {
+            "id": "link_1gradu8m0",
+            "name": "Ingredients",
+            "url": "/ingredients/"
+          },
+          {
+            "id": "link_dk5ryoxux",
+            "name": "Test",
+            "url": "/test/"
+          }
+        ]
+      }
+    }
+  ]
+}
