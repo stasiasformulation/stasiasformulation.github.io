@@ -82,7 +82,14 @@
     {
       "id": 1773279858403,
       "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/cutOil_1773279894.jpeg",
-      "ingredients": [],
+      "ingredients": [
+        {
+          "id": "sub_1773287997488",
+          "name": "Comming Soon!",
+          "imageUrl": "",
+          "description": ""
+        }
+      ],
       "name": "Stasia's Glowing Cuticle Oil"
     }
   ]
