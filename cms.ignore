@@ -11,13 +11,6 @@
       "name": "Ingredients",
       "slug": "ingredients",
       "template": "lists"
-    },
-    {
-      "id": "page_1773287619786",
-      "name": "modulo test",
-      "slug": "modulo-test",
-      "template": "modular",
-      "dataPath": "modulo-test/data.json"
     }
   ],
   "siteName": "Stasia's Formulation"
