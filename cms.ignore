@@ -1,9 +1,4 @@
 {
-  "cmsSettings": {
-    "name": "Horse",
-    "pfp": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Grapeseed%20Oil.png",
-    "theme": "dark"
-  },
   "pages": [
     {
       "dataPath": "home_data.json",
@@ -18,13 +13,6 @@
       "name": "Ingredients",
       "slug": "ingredients",
       "template": "lists"
-    },
-    {
-      "id": "page_1773289507534",
-      "name": "Test Page",
-      "slug": "test-page",
-      "template": "modular",
-      "dataPath": "test-page/data.json"
     }
   ],
   "siteName": "Stasia's Formulation"
