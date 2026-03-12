@@ -6,6 +6,13 @@
   },
   "pages": [
     {
+      "dataPath": "home_data.json",
+      "id": "page_home_0",
+      "name": "Home Page",
+      "slug": "home",
+      "template": "redirect"
+    },
+    {
       "dataPath": "ingredients/products.json",
       "id": "page_ingredients_1",
       "name": "Ingredients",
