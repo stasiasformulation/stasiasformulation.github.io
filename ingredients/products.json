@@ -2,6 +2,29 @@
   "settings": {
     "color1": "#FF69B4",
     "color2": "#f72d55",
+    "font": "Arial",
+    "menu": {
+      "bgColor": "#FF69B4",
+      "enabled": false,
+      "links": [
+        {
+          "id": "link_ykko9uagw",
+          "name": "Home Page",
+          "url": "/"
+        },
+        {
+          "id": "link_wqg0w4ggr",
+          "name": "Ingredients",
+          "url": "/ingredients/"
+        },
+        {
+          "id": "link_q7wa5n23p",
+          "name": "Test Page",
+          "url": "/test-page/"
+        }
+      ],
+      "textColor": "#ffffff"
+    },
     "subtitle": "Discover our ingredients in our products.",
     "title": "Stasia's Formulation Skincare"
   },
@@ -91,6 +114,19 @@
         }
       ],
       "name": "Stasia's Glowing Cuticle Oil"
+    },
+    {
+      "id": 1773291233704,
+      "name": "Test Product",
+      "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Rapeseed%20oil.png",
+      "ingredients": [
+        {
+          "id": "sub_1773291246754",
+          "name": "Test Ingredient",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Rapeseed%20oil.png",
+          "description": "TEst description"
+        }
+      ]
     }
   ]
 }
