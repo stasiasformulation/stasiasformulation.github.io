@@ -114,25 +114,6 @@
         }
       ],
       "name": "Stasia's Glowing Cuticle Oil"
-    },
-    {
-      "id": 1773291233704,
-      "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Rapeseed%20oil.png",
-      "ingredients": [
-        {
-          "description": "TEst description",
-          "id": "sub_1773291246754",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Rapeseed%20oil.png",
-          "name": "Test Ingredient"
-        },
-        {
-          "id": "sub_1773293870908",
-          "name": "test",
-          "imageUrl": "",
-          "description": "test"
-        }
-      ],
-      "name": "Test Product"
     }
   ]
 }
