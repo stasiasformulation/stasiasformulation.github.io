@@ -25,7 +25,7 @@
         {
           "description": "Argan Oil is an antioxidant and emollient. Lip Benefits: Rich in fatty acids and vitamin e, it deeply hydrates dry, chapped lips. Helps soothe cracked lips and promotes faster healing. Improves lip texture, making them feel softer and more supple.",
           "id": "sub_1773277896112",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan_oil_1773277924.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan%20oil.png",
           "name": "Argania Spinosa Kernal Oil"
         },
         {
@@ -45,22 +45,45 @@
           "id": "sub_1773278654128",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Beeswax.png",
           "name": "Cera alba"
+        },
+        {
+          "description": "Wildflower honey is a soothing and moisturizing agent as well as an amazing humectant. Lip Benefits: Wildflower honey can accelerate the skin's healing process, making it great for restoring lip health. It contains natural enzymes that can help slough off dead skin, leaving lips smooth and soft. Honey is a natural humectant, meaning it draws moisture from the air into the skin. Great for keeping lips hydrated.",
+          "id": "sub_1773279532709",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Wildflower%20honey.png",
+          "name": "Wildflower Honey"
+        },
+        {
+          "description": "Vitamin E is an antioxidant. We wanted to add a super antioxidant to our formula to prevent our oil based lip serum from going rancid. Lip Benefits: Helps restore and lock in hydration, preventing dryness and flakiness. Reduces irritation and inflammation, bringing refief to sore or sensitive lips.",
+          "id": "sub_1773279570410",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Vitamin%20E.png",
+          "name": " Tocopherol"
+        },
+        {
+          "id": "sub_1773279702255",
+          "name": "Rosmarinus Officinalis (Rosemary) Extract",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/rosemary.png",
+          "description": "Rosemary extract is an antioxidant and is used in this formulation as an extra preservative to help the lip serum from going rancid. Rosemary can stimulate blood flow, which might promote plumper-looking, healthier lips. Rosemary extract is rich in antioxidants (like carnosic acid and rosmarinic acid), which help protect lips from environmental damage and premature aging."
+        },
+        {
+          "id": "sub_1773279761006",
+          "name": "Dimethicone",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Dimethicone_1773279791.jpg",
+          "description": "\n\nDimethicone is an emollient. Lip Benefits: Forms a lightweight protective barrier on the lips to lock in hydration. Leaves lips feeling soft and supple without being greasy. Protects cracked or chapped lips from further irritation while they heal. Reduces transepidermal water loss, helping lips stay moisturized for longer."
+        },
+        {
+          "id": "sub_1773279827749",
+          "name": "Centella Asiatica",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/cica.png",
+          "description": "Centella Asiatica is an antioxidant and is known as a soothing ingredient meaning it is helpful in general to slow the aging process of the skin. Lip Benefits: Rich in madecassoside, it helps repair cracked or chapped lips by promoting skin regeneration. Boosts collagen production and imrpoves lip elasticity and firmness, keeping them soft and plump."
         }
       ],
       "name": "Stasia's Healing Lip Serum"
     },
     {
-      "id": 1773278685201,
-      "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
-      "ingredients": [
-        {
-          "description": "482347#&!*!#&!!!!!!!@@#$*#(*(###$$$%^^&&&*(())__++++_}\n\n\n\n\n\n\n\nKO:PK\n\n??||\\\\\\\\|?||\\\n\n[]{}+_+__++--=-++\n\n\\n\n\n",
-          "id": "sub_1773278702173",
-          "imageUrl": "",
-          "name": "Test"
-        }
-      ],
-      "name": "Test Product"
+      "id": 1773279858403,
+      "name": "Stasia's Glowing Cuticle Oil",
+      "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/cutOil_1773279894.jpeg",
+      "ingredients": []
     }
   ]
 }
