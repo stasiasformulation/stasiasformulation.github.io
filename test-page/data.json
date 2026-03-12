@@ -1,0 +1,76 @@
+{
+  "modules": [
+    {
+      "id": "m_1773289518459",
+      "type": "titlebar",
+      "content": "",
+      "url": "",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "This is a test page",
+      "subtitle": "this is a test page",
+      "color": "#FF69B4",
+      "text": ""
+    },
+    {
+      "id": "m_1773289548022",
+      "type": "background",
+      "content": "",
+      "url": "",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "",
+      "subtitle": "",
+      "color": "",
+      "text": ""
+    },
+    {
+      "id": "m_1773289555954",
+      "type": "header",
+      "content": "Hello",
+      "url": "",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "",
+      "subtitle": "",
+      "color": "",
+      "text": ""
+    },
+    {
+      "id": "m_1773289561037",
+      "type": "body",
+      "content": "Hello world!",
+      "url": "",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "",
+      "subtitle": "",
+      "color": "",
+      "text": ""
+    },
+    {
+      "id": "m_1773289568460",
+      "type": "link",
+      "content": "",
+      "url": "https://www.example.com",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "",
+      "subtitle": "",
+      "color": "#dc8add",
+      "text": "Click Here"
+    },
+    {
+      "id": "m_1773289596380",
+      "type": "image",
+      "content": "",
+      "url": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan%20oil.png",
+      "bgType": "color",
+      "value": "#f72d55",
+      "title": "",
+      "subtitle": "",
+      "color": "",
+      "text": ""
+    }
+  ]
+}
