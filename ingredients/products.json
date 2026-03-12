@@ -48,6 +48,19 @@
         }
       ],
       "name": "Stasia's Healing Lip Serum"
+    },
+    {
+      "id": 1773278685201,
+      "name": "Test Product",
+      "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
+      "ingredients": [
+        {
+          "id": "sub_1773278702173",
+          "name": "Test",
+          "imageUrl": "",
+          "description": "debug"
+        }
+      ]
     }
   ]
 }
