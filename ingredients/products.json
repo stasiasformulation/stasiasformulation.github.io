@@ -114,6 +114,19 @@
         }
       ],
       "name": "Stasia's Glowing Cuticle Oil"
+    },
+    {
+      "id": 1773421606247,
+      "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_8607_(1)_1773378777.jpg",
+      "ingredients": [
+        {
+          "description": "482347#&!*!#&!!!!!!!@@#$*#(*(###$$$%^^&&&*(())__++++_}\n\nKO:PK\n??||\\\\|?||\\\n[]{}+_+__++--=-++\n\\n",
+          "id": "sub_1773421631099",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_8607_(1)_1773378777.jpg",
+          "name": "Test Ingredient"
+        }
+      ],
+      "name": "This is a test Product"
     }
   ]
 }
