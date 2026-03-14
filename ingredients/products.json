@@ -1,8 +1,8 @@
 {
   "settings": {
-    "color1": "#FF69B4",
-    "color2": "#f72d55",
-    "font": "Arial",
+    "color1": "#fb1383",
+    "color2": "#ffffff",
+    "font": "Tahoma",
     "menu": {
       "bgColor": "#FF69B4",
       "enabled": false,
@@ -25,8 +25,10 @@
       ],
       "textColor": "#ffffff"
     },
-    "subtitle": "Discover our ingredients in our products.",
-    "title": "Stasia's Formulation Skincare"
+    "subtitle": "Discover the ingredients in our products.",
+    "title": "Stasia's Formulation Skincare",
+    "titleColor": "#ffffff",
+    "subtitleColor": "#fdfcfc"
   },
   "items": [
     {
