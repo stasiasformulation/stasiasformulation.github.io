@@ -34,70 +34,52 @@
       "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/04980871-939E-4D23-A66A-FFFF00B9F2FA_1773377531.PNG",
       "ingredients": [
         {
-          "description": "Squalane is an emollient in the formulation meaning it makes your skin soft, smooth, and lovely.",
+          "description": "A lightweight, plant-derived lipid that closely mimics the skin’s natural oils. It helps keep lips soft and comfortable by reducing moisture loss and improving smoothness without feeling greasy.",
           "id": "i1",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
           "name": "Squalane"
         },
         {
-          "description": "Grapeseed Oil is an emollient and antioxidant.",
-          "id": "i2",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Grapeseed%20Oil.png",
-          "name": "Vitis Vinifera (Grape) Seed Oil"
-        },
-        {
-          "description": "Argan Oil is an antioxidant and emollient. Lip Benefits: Rich in fatty acids and vitamin e, it deeply hydrates dry, chapped lips. Helps soothe cracked lips and promotes faster healing. Improves lip texture, making them feel softer and more supple.",
+          "description": "A nutrient-rich botanical oil containing vitamin E, sterols, and fatty acids. It helps nourish dry lips, improve softness, and support the natural moisture barrier.",
           "id": "sub_1773277896112",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan%20oil.png",
           "name": "Argania Spinosa Kernal Oil"
         },
         {
-          "description": "Sea Buckthorn Oil is an antioxidant and an emollient. Lip Benefits: Packed with omega fatty acids (3, 6, 7, and 9) that nourish and lock in moisture. Rich in vitamins A, C, and E, it promotes skin repair and soothes irritation. The high vitamin C content helps improve lip elasticity and plumpness. Reduces redness, irritation, and sensitivity, making it great for dry or sensitive lips.",
+          "description": "A glossy, protective emollient that forms a flexible barrier on the lips. It helps seal in moisture, improves product wear time, and gives the formula a smooth, cushiony glide.",
           "id": "sub_1773278586150",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Sea%20buckthonr%20Oil.png",
-          "name": "Hippophae Rhamnoides (Sea Buckthorn) Oil"
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2417_1773379743.jpg",
+          "name": "Polyisobutene"
         },
         {
-          "description": "Rapeseed Oil is an emollient. We wanted to incorperate an emollient into our lip serum that is super sensitive but also helps lock in moisture. Lip Benefits: It's high in essential fatty acids (Like omega-3 and omega-6), which help lock in moisture and prevent dryness and chapping. It gives lips a natural, healthy sheen without needing synthetic glosses.",
-          "id": "sub_1773278627504",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Rapeseed%20oil.png",
-          "name": "Brassica Napus Seed Oil"
-        },
-        {
-          "description": "Beeswax *ethically sourced* is an emollient and thickening agent helping the formulation appear thicker. Lip Benefits: Beeswaxs helps lock in moisture, keeping lips hydrated and preventing dryness or chapping. Rich in vitamin A, it supports skin cell regeneration, which can help maintain soft and healthy lips. Beeswax contains anti-inflammatory, antibacterial, and antiviral properties that can help heal cracked or irritated lips.",
-          "id": "sub_1773278654128",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Beeswax.png",
-          "name": "Cera alba"
-        },
-        {
-          "description": "Wildflower honey is a soothing and moisturizing agent as well as an amazing humectant. Lip Benefits: Wildflower honey can accelerate the skin's healing process, making it great for restoring lip health. It contains natural enzymes that can help slough off dead skin, leaving lips smooth and soft. Honey is a natural humectant, meaning it draws moisture from the air into the skin. Great for keeping lips hydrated.",
-          "id": "sub_1773279532709",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Wildflower%20honey.png",
-          "name": "Wildflower Honey"
-        },
-        {
-          "description": "Vitamin E is an antioxidant. We wanted to add a super antioxidant to our formula to prevent our oil based lip serum from going rancid. Lip Benefits: Helps restore and lock in hydration, preventing dryness and flakiness. Reduces irritation and inflammation, bringing refief to sore or sensitive lips.",
+          "description": "A stabilized form of jojoba oil that creates a soft, breathable protective layer. It helps condition the lips and improves the structure of the formula so it feels silky rather than oily.",
           "id": "sub_1773279570410",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Vitamin%20E.png",
-          "name": " Tocopherol"
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2416_1773379754.jpg",
+          "name": "Hydrogenated Jojoba Oil"
         },
         {
-          "description": "Rosemary extract is an antioxidant and is used in this formulation as an extra preservative to help the lip serum from going rancid. Rosemary can stimulate blood flow, which might promote plumper-looking, healthier lips. Rosemary extract is rich in antioxidants (like carnosic acid and rosmarinic acid), which help protect lips from environmental damage and premature aging.",
-          "id": "sub_1773279702255",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/rosemary.png",
-          "name": "Rosmarinus Officinalis (Rosemary) Extract"
-        },
-        {
-          "description": "\n\nDimethicone is an emollient. Lip Benefits: Forms a lightweight protective barrier on the lips to lock in hydration. Leaves lips feeling soft and supple without being greasy. Protects cracked or chapped lips from further irritation while they heal. Reduces transepidermal water loss, helping lips stay moisturized for longer.",
-          "id": "sub_1773279761006",
+          "id": "sub_1773479288652",
+          "name": "C12-15 Alkyl Benzoate",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Dimethicone_1773279791.jpg",
-          "name": "Dimethicone"
+          "description": "A lightweight conditioning ingredient that improves spreadability and gives the formula a silky, non-greasy finish. It helps the product glide smoothly and layer well with other lip products."
         },
         {
-          "description": "Centella Asiatica is an antioxidant and is known as a soothing ingredient meaning it is helpful in general to slow the aging process of the skin. Lip Benefits: Rich in madecassoside, it helps repair cracked or chapped lips by promoting skin regeneration. Boosts collagen production and imrpoves lip elasticity and firmness, keeping them soft and plump.",
-          "id": "sub_1773279827749",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/cica.png",
-          "name": "Centella Asiatica"
+          "id": "sub_1773479320674",
+          "name": "Hippophae Rhamnoides Fruit Oil (Sea Buckthorn Oil)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Sea%20buckthonr%20Oil.png",
+          "description": "A vibrant botanical oil rich in carotenoids, fatty acids, and antioxidants. It helps support lip nourishment and contributes to a healthy-looking appearance."
+        },
+        {
+          "id": "sub_1773479354208",
+          "name": "Cetyl Alcohol",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2418_1773379765.jpg",
+          "description": "A fatty alcohol derived from plant oils that helps stabilize the formula and create a smooth, creamy texture. It adds cushion and improves how the product feels on the lips."
+        },
+        {
+          "id": "sub_1773479384904",
+          "name": "Tocopherol (Vitamin E)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Vitamin%20E.png",
+          "description": "A natural antioxidant that helps protect the formula from oxidation while also helping condition the lips and support softness."
         }
       ],
       "name": "Stasia's Healing Lip Serum"
