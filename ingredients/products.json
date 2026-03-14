@@ -28,7 +28,9 @@
     "subtitle": "Discover the ingredients in our products.",
     "title": "Stasia's Formulation Skincare",
     "titleColor": "#ffffff",
-    "subtitleColor": "#fdfcfc"
+    "subtitleColor": "#fdfcfc",
+    "tabTitle": "Stasiasingredients",
+    "favicon": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_8607_(1)_1773378777.jpg"
   },
   "items": [
     {
