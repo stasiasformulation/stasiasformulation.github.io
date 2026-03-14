@@ -89,10 +89,58 @@
       "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/5DCBE059-8EAB-48B7-91A6-1B8002144AF6_1773378242.jpg",
       "ingredients": [
         {
-          "description": "",
-          "id": "sub_1773287997488",
-          "imageUrl": "",
-          "name": "Coming Soon!"
+          "id": "sub_1773479438366",
+          "name": "Squalane",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
+          "description": "Deeply hydrates and softens dry cuticles while absorbing quickly without leaving a greasy feel."
+        },
+        {
+          "id": "sub_1773479493006",
+          "name": "Coco-Caprylate/Caprate",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2420_1773380798.jpg",
+          "description": "Gives the oil a smooth, lightweight texture that helps it glide onto the skin and absorb easily."
+        },
+        {
+          "id": "sub_1773479531959",
+          "name": "Argania Spinosa Kernel Oil (Argan Oil)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan%20oil.png",
+          "description": "It is rich in nourishing fatty acids that help condition cuticles and support stronger-looking nails."
+        },
+        {
+          "id": "sub_1773479572968",
+          "name": "Vitis Vinifera Seed Oil (Grapeseed Oil)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/WhatsApp%20Image%202025-09-21%20at%2010.06.53%20PM(1).jpeg",
+          "description": "Provides lightweight moisture and antioxidants that help soften rough skin around the nails."
+        },
+        {
+          "id": "sub_1773479607564",
+          "name": "Simmondsia Chinensis Seed Oil (Jojoba Oil)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2421_1773380826.jpg",
+          "description": "Closely resembles the skin’s natural oils, helping to deeply hydrate and repair dry, cracked cuticles."
+        },
+        {
+          "id": "sub_1773479653801",
+          "name": "Ricinus Communis Seed Oil (Castor Oil)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2422_1773380847.jpg",
+          "description": "Adds rich conditioning and helps lock in moisture while giving nails a healthy shine."
+        },
+        {
+          "id": "sub_1773479692066",
+          "name": "Tocopherol (Vitamin E)",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Vitamin%20E.png",
+          "description": "Acts as an antioxidant that helps protect and nourish the skin while supporting overall nail and cuticle health."
+        },
+        {
+          "id": "sub_1773479721957",
+          "name": "Citrus Limon Peel Oil",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2424_1773380870.jpg",
+          "description": "Provides a fresh citrus scent and helps give nails a brighter, cleaner appearance."
+        },
+        {
+          "id": "sub_1773479757308",
+          "name": "Mica / Mineral Pigments",
+          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2426_1773380888.jpg",
+          "description": "Creates the pink lemonade color and soft rose-gold shimmer that adds a subtle glow when applied."
         }
       ],
       "name": "Stasia's Glowing Cuticle Oil"
