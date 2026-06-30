@@ -2,6 +2,7 @@
   "settings": {
     "color1": "#fb1383",
     "color2": "#ffffff",
+    "favicon": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_8607_(1)_1773378777.jpg",
     "font": "Tahoma",
     "menu": {
       "bgColor": "#FF69B4",
@@ -26,11 +27,10 @@
       "textColor": "#ffffff"
     },
     "subtitle": "Discover the ingredients in our products.",
-    "title": "Stasia's Formulation Skincare",
-    "titleColor": "#ffffff",
     "subtitleColor": "#fdfcfc",
     "tabTitle": "Stasiasingredients",
-    "favicon": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_8607_(1)_1773378777.jpg"
+    "title": "Stasia's Formulation Skincare",
+    "titleColor": "#ffffff"
   },
   "items": [
     {
@@ -42,12 +42,6 @@
           "id": "i1",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
           "name": "Squalane"
-        },
-        {
-          "description": "A nutrient-rich botanical oil containing vitamin E, sterols, and fatty acids. It helps nourish dry lips, improve softness, and support the natural moisture barrier.",
-          "id": "sub_1773277896112",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan%20oil.png",
-          "name": "Argania Spinosa Kernal Oil"
         },
         {
           "description": "A glossy, protective emollient that forms a flexible barrier on the lips. It helps seal in moisture, improves product wear time, and gives the formula a smooth, cushiony glide.",
@@ -62,89 +56,83 @@
           "name": "Hydrogenated Jojoba Oil"
         },
         {
+          "description": "A lightweight conditioning ingredient that improves spreadability and gives the formula a silky, non-greasy finish. It helps the product glide smoothly and layer well with other lip products.",
           "id": "sub_1773479288652",
-          "name": "C12-15 Alkyl Benzoate",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Dimethicone_1773279791.jpg",
-          "description": "A lightweight conditioning ingredient that improves spreadability and gives the formula a silky, non-greasy finish. It helps the product glide smoothly and layer well with other lip products."
+          "name": "C12-15 Alkyl Benzoate"
         },
         {
-          "id": "sub_1773479320674",
-          "name": "Hippophae Rhamnoides Fruit Oil (Sea Buckthorn Oil)",
-          "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Sea%20buckthonr%20Oil.png",
-          "description": "A vibrant botanical oil rich in carotenoids, fatty acids, and antioxidants. It helps support lip nourishment and contributes to a healthy-looking appearance."
-        },
-        {
+          "description": "A fatty alcohol derived from plant oils that helps stabilize the formula and create a smooth, creamy texture. It adds cushion and improves how the product feels on the lips.",
           "id": "sub_1773479354208",
-          "name": "Cetyl Alcohol",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2418_1773379765.jpg",
-          "description": "A fatty alcohol derived from plant oils that helps stabilize the formula and create a smooth, creamy texture. It adds cushion and improves how the product feels on the lips."
+          "name": "Cetyl Alcohol"
         },
         {
+          "description": "A natural antioxidant that helps protect the formula from oxidation while also helping condition the lips and support softness.",
           "id": "sub_1773479384904",
-          "name": "Tocopherol (Vitamin E)",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Vitamin%20E.png",
-          "description": "A natural antioxidant that helps protect the formula from oxidation while also helping condition the lips and support softness."
+          "name": "Tocopherol (Vitamin E)"
         }
       ],
-      "name": "Stasia's Healing Lip Serum"
+      "name": "Stasia's Lip Quencher"
     },
     {
       "id": 1773279858403,
       "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/5DCBE059-8EAB-48B7-91A6-1B8002144AF6_1773378242.jpg",
       "ingredients": [
         {
+          "description": "Deeply hydrates and softens dry cuticles while absorbing quickly without leaving a greasy feel.",
           "id": "sub_1773479438366",
-          "name": "Squalane",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Squalane.png",
-          "description": "Deeply hydrates and softens dry cuticles while absorbing quickly without leaving a greasy feel."
+          "name": "Squalane"
         },
         {
+          "description": "Gives the oil a smooth, lightweight texture that helps it glide onto the skin and absorb easily.",
           "id": "sub_1773479493006",
-          "name": "Coco-Caprylate/Caprate",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2420_1773380798.jpg",
-          "description": "Gives the oil a smooth, lightweight texture that helps it glide onto the skin and absorb easily."
+          "name": "Coco-Caprylate/Caprate"
         },
         {
+          "description": "It is rich in nourishing fatty acids that help condition cuticles and support stronger-looking nails.",
           "id": "sub_1773479531959",
-          "name": "Argania Spinosa Kernel Oil (Argan Oil)",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Argan%20oil.png",
-          "description": "It is rich in nourishing fatty acids that help condition cuticles and support stronger-looking nails."
+          "name": "Argania Spinosa Kernel Oil (Argan Oil)"
         },
         {
+          "description": "Provides lightweight moisture and antioxidants that help soften rough skin around the nails.",
           "id": "sub_1773479572968",
-          "name": "Vitis Vinifera Seed Oil (Grapeseed Oil)",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/WhatsApp%20Image%202025-09-21%20at%2010.06.53%20PM(1).jpeg",
-          "description": "Provides lightweight moisture and antioxidants that help soften rough skin around the nails."
+          "name": "Vitis Vinifera Seed Oil (Grapeseed Oil)"
         },
         {
+          "description": "Closely resembles the skin’s natural oils, helping to deeply hydrate and repair dry, cracked cuticles.",
           "id": "sub_1773479607564",
-          "name": "Simmondsia Chinensis Seed Oil (Jojoba Oil)",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2421_1773380826.jpg",
-          "description": "Closely resembles the skin’s natural oils, helping to deeply hydrate and repair dry, cracked cuticles."
+          "name": "Simmondsia Chinensis Seed Oil (Jojoba Oil)"
         },
         {
+          "description": "Adds rich conditioning and helps lock in moisture while giving nails a healthy shine.",
           "id": "sub_1773479653801",
-          "name": "Ricinus Communis Seed Oil (Castor Oil)",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2422_1773380847.jpg",
-          "description": "Adds rich conditioning and helps lock in moisture while giving nails a healthy shine."
+          "name": "Ricinus Communis Seed Oil (Castor Oil)"
         },
         {
+          "description": "Acts as an antioxidant that helps protect and nourish the skin while supporting overall nail and cuticle health.",
           "id": "sub_1773479692066",
-          "name": "Tocopherol (Vitamin E)",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/Vitamin%20E.png",
-          "description": "Acts as an antioxidant that helps protect and nourish the skin while supporting overall nail and cuticle health."
+          "name": "Tocopherol (Vitamin E)"
         },
         {
+          "description": "Provides a fresh citrus scent and helps give nails a brighter, cleaner appearance.",
           "id": "sub_1773479721957",
-          "name": "Citrus Limon Peel Oil",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2424_1773380870.jpg",
-          "description": "Provides a fresh citrus scent and helps give nails a brighter, cleaner appearance."
+          "name": "Citrus Limon Peel Oil"
         },
         {
+          "description": "Creates the pink lemonade color and soft rose-gold shimmer that adds a subtle glow when applied.",
           "id": "sub_1773479757308",
-          "name": "Mica / Mineral Pigments",
           "imageUrl": "https://raw.githubusercontent.com/stasiasformulation/stasiasformulation.github.io/main/Assets/IMG_2426_1773380888.jpg",
-          "description": "Creates the pink lemonade color and soft rose-gold shimmer that adds a subtle glow when applied."
+          "name": "Mica / Mineral Pigments"
         }
       ],
       "name": "Stasia's Glowing Cuticle Oil"
